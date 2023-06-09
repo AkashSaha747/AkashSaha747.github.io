@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background: #010132;
+  background: #313133;
   color: #fff; 
 
 }
@@ -75,7 +75,7 @@ font-size: 25px;
 
 /* ---------------------------project github link and deployed link------------ */
 .project-github-link,.project-deployed-link{
-  color: green;
+  color: orange;
   font-size: 20px;
  
 }
@@ -96,11 +96,11 @@ background: linear-gradient(orange,crimson,black);
 .skills-card-name{
   text-align: center;
   font-size: 25px;
-  background-color: #0a0a0a00;
+  background-color: #cbbfbf00;
   padding: 5px;
   border-radius: 20px;
   width: 150px;
-  
+
 }
 .skills-card-name:hover{
   background: linear-gradient(rgb(215, 14, 84),rgb(255, 0, 212),rgb(128, 0, 128));
@@ -627,30 +627,71 @@ nav .fas {
   
   }
 
-  @media only screen and (max-width:400px) {
-        .imk{ 
-          flex-basis: initial;
-          width: initial;
-        }
-        #resume-button-2{
-          display: block;
-        }
-    
-        .project {
-          width: 300px;
-        }
-        .project-list {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-        .sub-title {
-          text-align: center;
-        }
-      
-        .about-col-1{
-          text-align: center;
-        }
-  }
+
   
+}
+
+@media only screen and (max-width:500px) {
+  .imk{ 
+    flex-basis: initial;
+    width: initial;
+  }
+  #resume-button-2{
+    display: block;
+  }
+
+  .project {
+    width: 300px;
+  }
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sub-title {
+    text-align: center;
+  }
+
+  .about-col-1{
+    text-align: center;
+  }
+  .about{
+    margin-top: 200px;
+  }
+}
+
+
+@media only screen and (max-width:300px) {
+  .imk{ 
+    flex-basis: initial;
+    width: initial;
+  }
+  #resume-button-2{
+    display: block;
+  }
+
+  .project {
+    width: 300px;
+  }
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sub-title {
+    text-align: center;
+  }
+
+  .about-col-1{
+    text-align: center;
+  }
+
+.skills-list{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+}
+.about{
+  margin-top: 200px;
+}
 }
