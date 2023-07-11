@@ -252,7 +252,6 @@ nav ul li a:hover::after {
   flex-basis: 60%;
  text-align: left;
 
-
 }
 
 .sub-title {
@@ -504,7 +503,15 @@ form .btn2 {
   color: #ff004f;
 
 }
-
+.maain{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.skill{
+  text-align: center;
+  margin: auto;
+}
 
 /* --------------------css for small screen------- */
 
@@ -629,13 +636,28 @@ nav .fas {
   
 }
 
-@media only screen and (max-width:500px) {
+/* 500px screen max */
+
+@media only screen and (max-width:821px) {
   .imk{ 
     flex-basis: initial;
     width: initial;
   }
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* height: 150px;
+    width: 150px; */
+   justify-content: space-evenly;
+    margin-top: 50px;
+}
+.skill{
+  text-align: center;
+  margin: auto;
+}
   #resume-button-2{
     display: block;
+    margin-bottom: 20px;
   }
 
   .project {
@@ -654,12 +676,46 @@ nav .fas {
     text-align: center;
   }
   .about{
-    margin-top: 200px;
+    margin-top: 150px;
   }
+
+}
+@media only screen and (max-width:691px) {
+  .imk{ 
+    flex-basis: initial;
+    width: initial;
+  }
+  #resume-button-2{
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .project {
+    width: 300px;
+  }
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sub-title {
+    text-align: center;
+  }
+
+  .about-col-1{
+    text-align: center;
+  }
+  .about{
+    margin-top: 250px;
+  }
+
 }
 
 
-@media only screen and (max-width:300px) {
+
+/* 300px screen max */
+
+@media only screen and (max-width:375px) {
   .imk{ 
     flex-basis: initial;
     width: initial;
@@ -690,6 +746,6 @@ nav .fas {
 
 }
 .about{
-  margin-top: 200px;
+  margin-top: 150px;
 }
 }
