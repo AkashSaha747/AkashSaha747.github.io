@@ -19,7 +19,7 @@ Express JS
 MongoDB
 
 # My Projects
--> SkinStore.com  Deployed -> https://skinstore-clone-nine.vercel.app
+-> SkinStore.com  Deployed -> https://skinstore-clone-nine.vercel.app <br></br>
 -> Trivago-Clone  Deployed -> https://trivago-cloned.netlify.app
 -> Koo app        Deployed -> https://kooapp-clone-nine.vercel.app
 -> Honey Store    Deployed -> https://honeysotre.vercel.app
