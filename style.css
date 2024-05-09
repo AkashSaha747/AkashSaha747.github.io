@@ -208,8 +208,22 @@ nav ul li a:hover::after {
 }
 
 
+/* ---------------experience-------------- */
+#points {
+font-size: 20px;
+margin-top: 10px;
+}
+#company-role {
+  font-size: 20px;
+  margin-top: 10px;
+}
+#company-joining {
+  font-size: 20px;
+}
+#knitsilk-text{
+  color: rgb(242, 246, 43);
 
-
+}
 /* ---------------------about------------------ */
 #about {
   padding: 80px 0;
