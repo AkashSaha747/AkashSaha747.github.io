@@ -98,7 +98,7 @@ background: linear-gradient(orange,crimson,black);
   padding: 5px;
   border-radius: 20px;
   width: 150px;
-
+margin-top: 20px;
 }
 .skills-card-name:hover{
   background: linear-gradient(rgb(215, 14, 84),rgb(255, 0, 212),rgb(128, 0, 128));
@@ -209,6 +209,9 @@ nav ul li a:hover::after {
 
 
 /* ---------------experience-------------- */
+#experience{
+  padding-top: 40px;
+}
 #points {
 font-size: 20px;
 margin-top: 10px;
@@ -423,6 +426,9 @@ margin-top: 10px;
 }
 
 /* -----------------------------contact-------------------- */
+#contact {
+  padding-top: 40px;
+}
 .contact-left {
   flex-basis: 35%;
 
